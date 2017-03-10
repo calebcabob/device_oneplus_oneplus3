@@ -5,7 +5,7 @@
     "branch": "c7.1.1"
   },
   {
-    "repository": "NoSpamDan/kernel_oneplus_msm8996",
+    "repository": "CandyDevices/kernel_oneplus_msm8996",
     "target_path": "kernel/oneplus/msm8996",
     "branch": "c7.1.1"
   },
