@@ -198,6 +198,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Ship with root?
+WITH_ROOT := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
