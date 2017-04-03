@@ -103,6 +103,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Haters gonna hate..
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# AdAway
+PRODUCT_PACKAGES += \
+    AdAway
+
 # Alipay
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
