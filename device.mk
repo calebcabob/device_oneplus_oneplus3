@@ -181,7 +181,8 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
-    android.hardware.drm@1.0-impl
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service.widevine
 
 # Display
 PRODUCT_PACKAGES += \
@@ -211,8 +212,8 @@ PRODUCT_PACKAGES += \
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service \
-    fingerprint.msm8996
-#    OneplusPocketMode
+    fingerprint.msm8996 \
+    OneplusPocketMode
 
 # For config.fs
 PRODUCT_PACKAGES += \
@@ -237,6 +238,10 @@ PRODUCT_COPY_FILES += \
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.manager@1.0-java
 
 # IPv6
 PRODUCT_PACKAGES += \
