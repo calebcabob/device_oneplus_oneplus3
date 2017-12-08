@@ -61,14 +61,14 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     <integer name="config_longPressOnAppSwitchBehavior">1</integer> -->
 
-    <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+    <!-- doze always on
+    <bool name="config_enableDozeAlwaysOn">true</bool> -->
 
-    <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+    <!-- Whether notify fingerprint client of successful cancelled authentication
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
 
-    <!-- Default value for proximity check on screen wake -->
+    <!-- Default value for proximity check on screen wake
     <bool name="config_proximityCheckOnWake">true</bool>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool> -->
 
 </resources>
