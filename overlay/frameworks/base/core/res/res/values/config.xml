@@ -414,4 +414,7 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">83</integer>
+
+   <!-- button back lights -->
+   <bool name="config_deviceHasButtonBacklight">false</bool>
 </resources>
