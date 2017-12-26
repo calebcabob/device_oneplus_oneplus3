@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_oneplus3.mk
+    vendor/aquarios/aquarios_oneplus3.mk

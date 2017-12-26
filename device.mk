@@ -22,9 +22,9 @@
 
 $(call inherit-product, device/oneplus/oneplus3/hidl.mk)
 $(call inherit-product, vendor/oneplus/oneplus3/oneplus3-vendor.mk)
-$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-2048-hwui-memory.mk)
-$(call inherit-product, vendor/nitrogen/config/utils.mk)
+$(call inherit-product, vendor/aquarios/config/phone-xxhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/aquarios/config/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, vendor/aquarios/config/utils.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -268,8 +268,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_parameters_shim
 
-PRODUCT_PACKAGES += \
-    Oneplus3Parts
+# PRODUCT_PACKAGES += \
+#    Oneplus3Parts
 
 # Doze mode
 PRODUCT_PACKAGES += \
