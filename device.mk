@@ -26,7 +26,10 @@ $(call inherit-product, vendor/aquarios/config/phone-xxhdpi-4096-dalvik-heap.mk)
 $(call inherit-product, vendor/aquarios/config/phone-xxhdpi-2048-hwui-memory.mk)
 $(call inherit-product, vendor/aquarios/config/utils.mk)
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-aquarios
 
 PRODUCT_PACKAGES += \
     charger_res_images
